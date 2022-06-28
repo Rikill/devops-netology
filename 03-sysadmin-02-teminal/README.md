@@ -78,6 +78,7 @@ env
 sse4_2
 
 12)  
+
 ```
 vagrant vagrant ssh
 
@@ -114,6 +115,7 @@ vagrant@localhost's password:
 Connection to localhost closed.
 
 vagrant@vagrant:~$ 
+
 ```
 
 
