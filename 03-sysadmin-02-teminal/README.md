@@ -78,6 +78,7 @@ env
 sse4_2
 
 12)  
+
 ```
 vagrant vagrant ssh
 Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-110-generic x86_64)
@@ -105,6 +106,7 @@ vagrant@localhost's password:
 /dev/pts/1
 Connection to localhost closed.
 vagrant@vagrant:~$ 
+
 ```
 
 
