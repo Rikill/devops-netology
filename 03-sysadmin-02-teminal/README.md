@@ -56,7 +56,8 @@ echo netology > /proc/$$/fd/5 - выведет в дескриптор "5", ко
 если запустить echo netology > /proc/$$/fd/5 в новой сесии, получим ошибку, так как такого дескриптора нет в текущей(новой) сесии
 
  8) 
-``` vagrant@vagrant:~$ ls -l /root 9>&2 2>&1 1>&9 |grep denied -c 
+``` 
+vagrant@vagrant:~$ ls -l /root 9>&2 2>&1 1>&9 | grep denied -c 
 1
 
 9>&2 - новый дескриптор перенаправили в stderr
@@ -76,7 +77,36 @@ env
  11) ░▒▓    ~/Doc/Learning/vagrant ▓▒░  grep sse /proc/cpuinfo
 sse4_2
 
-12)   Не нашел ответа на вопрос
+12)  
+```
+vagrant vagrant ssh
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-110-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tue 28 Jun 2022 03:54:19 PM UTC
+
+  System load:  0.09               Processes:             120
+  Usage of /:   11.9% of 30.63GB   Users logged in:       0
+  Memory usage: 22%                IPv4 address for eth0: 10.0.2.15
+  Swap usage:   0%
+
+
+This system is built by the Bento project by Chef Software
+More information can be found at https://github.com/chef/bento
+Last login: Tue Jun 28 15:53:15 2022 from 127.0.0.1
+vagrant@vagrant:~$ ssh localhost 'tty'
+vagrant@localhost's password: 
+not a tty
+vagrant@vagrant:~$ ssh -t localhost 'tty'
+vagrant@localhost's password: 
+/dev/pts/1
+Connection to localhost closed.
+vagrant@vagrant:~$ 
+```
+
 
  13)  reptyr {{pid}}
 
