@@ -80,6 +80,7 @@ sse4_2
 12)  
 ```
 vagrant vagrant ssh
+
 Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-110-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
@@ -97,13 +98,21 @@ Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-110-generic x86_64)
 This system is built by the Bento project by Chef Software
 More information can be found at https://github.com/chef/bento
 Last login: Tue Jun 28 15:53:15 2022 from 127.0.0.1
+
 vagrant@vagrant:~$ ssh localhost 'tty'
+
 vagrant@localhost's password: 
+
 not a tty
+
 vagrant@vagrant:~$ ssh -t localhost 'tty'
+
 vagrant@localhost's password: 
+
 /dev/pts/1
+
 Connection to localhost closed.
+
 vagrant@vagrant:~$ 
 ```
 
