@@ -82,24 +82,6 @@ sse4_2
 ```
 vagrant vagrant ssh
 
-Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-110-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-  System information as of Tue 28 Jun 2022 03:54:19 PM UTC
-
-  System load:  0.09               Processes:             120
-  Usage of /:   11.9% of 30.63GB   Users logged in:       0
-  Memory usage: 22%                IPv4 address for eth0: 10.0.2.15
-  Swap usage:   0%
-
-
-This system is built by the Bento project by Chef Software
-More information can be found at https://github.com/chef/bento
-Last login: Tue Jun 28 15:53:15 2022 from 127.0.0.1
-
 vagrant@vagrant:~$ ssh localhost 'tty'
 
 vagrant@localhost's password: 
@@ -117,7 +99,8 @@ Connection to localhost closed.
 vagrant@vagrant:~$ 
 
 ```
-
+при подключении ожидается пользователь, а не другой процесс, и нет локального tty в данный момент. 
+для запуска можно добавить -t - , и команда исполняется c принудительным созданием псевдотерминала
 
  13)  reptyr {{pid}}
 
