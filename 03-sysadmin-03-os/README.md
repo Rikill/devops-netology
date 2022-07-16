@@ -29,7 +29,7 @@ set -e - Exit immediately if a command exits with a non-zero status - испол
    -o pipefail - возвращает команду с не-нулевым кодом выхода или 0 - если все выполнилось успешно
 
    По сути набор этих опций включает режим отладки - подробный вывод процесса выполнения.
-10. 
+9.
 ```
 vagrant@vagrant:~$ ps -o stat
 STAT
