@@ -1,0 +1,1 @@
+for ip in $(192.168.0.1...192.168.0.10 ; do echo $ip; ssh root@$ip; echo date
