@@ -243,4 +243,5 @@ UNCONN                 0                      0                                 
 ```
 
 5.
-![Моя домашняя сеть не сложная](https://drive.google.com/file/d/1jqkMDlO8NKfmJRKkYyzXlRN_5isoySRC/view?usp=sharing)
+![Моя домашняя сеть не сложная](https://i.imgur.com/8YZpmEJ.png)
+
