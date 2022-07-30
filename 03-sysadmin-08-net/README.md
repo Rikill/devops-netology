@@ -242,5 +242,5 @@ UNCONN                 0                      0                                 
 UNCONN                 0                      0                                                                    [::]:mdns                                                   [::]:* 
 ```
 
-
-ss 
+5.
+![Моя домашняя сеть не сложная](https://drive.google.com/file/d/1jqkMDlO8NKfmJRKkYyzXlRN_5isoySRC/view?usp=sharing)
