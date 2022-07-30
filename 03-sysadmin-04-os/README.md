@@ -37,7 +37,7 @@ vagrant@vagrant:~/node_exporter-1.3.1.linux-amd64$ cat /etc/systemd/system/node_
 Description=Node Exporter
  
 [Service]
-ExecStart=/opt/node_exporter/node_exporter
+ExecStart=/opt/node_exporter/node_exporter -C /opt/node_exporter/node_exporter.conf
  
 [Install]
 WantedBy=default.target
